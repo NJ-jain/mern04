@@ -1,0 +1,66 @@
+@font-face {
+    font-family: medium;
+    src: url("../fonts/gt-super-400-normal.ttf");
+}
+@font-face {
+    font-family: navtext;
+    src: url('../fonts/sohne-400-normal.ttf');
+}
+
+#box
+{
+    font-family: medium;
+    background-color: rgb(255 192 23);
+    height: 70vh;
+    border-bottom: 2px black solid;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+
+#box h1
+{
+    color: black;
+    font-size: 106px;
+
+}
+
+#box div h3
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#box-section
+{
+    margin-left: 70px;
+}
+#startReading
+{
+    font-size: 1.4rem;
+    font-family: navtext;
+    border-radius: 50px;
+    width: 213px;
+    font-size: 20px;
+    padding: 7px 20px 9px;
+}
+
+#mmm img
+{
+    width : auto !important ;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    #box h1{
+        font-size: 70px;
+    }
+    #box-section
+    {
+        margin-left: 0;
+    }
+    #mmm
+    {
+        display: none;
+    }
+}

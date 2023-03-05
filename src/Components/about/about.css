@@ -1,0 +1,518 @@
+@font-face {
+    font-family: navtext;
+    src: url('/src/assest/fonts/sohne-400-normal.ttf');
+}
+@font-face {
+    font-family: medium;
+    src: url("/src/assest/fonts/gt-super-400-normal.ttf");
+}
+#blackbox1
+{
+    padding: 30px;
+    border-right: 2px white solid;
+}
+#twobox
+{
+    /* background-color: red; */
+    min-height: 70vh;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+#blackbox1 h1
+{
+    font-family: medium;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.4vw;
+    font-size: 7.3vw;
+}
+
+#sphere
+{
+    width: 100%;
+    height: 100%;
+}
+
+#first , #second
+{
+    width: 50%;
+    min-height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#first p
+{
+    font-size: 18px;
+    font-family: navtext;
+}
+
+#first
+{
+    border-right: 2px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+#living
+{ 
+    background-color: #ffd1b9;
+    height: 120vh;
+}
+#living h1
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+#living p
+{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: navtext;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+#create
+{
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#create p
+{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    color: #fff;
+    font-weight: 400;
+    text-transform: none;
+}
+#create h1
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    /* color: #000; */
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+
+#create button
+{
+    color: #34a245;
+    /* width: 15vw; */
+    /* font-size: 22px; */
+    border-radius: 50px;
+    height: 7vh;
+    /* padding: 8px 32px 10px; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    border-color: #34a245;
+    /* border-radius: 20px; */
+    /* position: relative; */
+    /* height: auto; */
+    /* background-color: transparent; */
+    /* margin-top: 0px; */
+    /* font-size: 7.3vw; */
+}
+#create button:hover
+{
+    color: white;
+    background-color: #34a245;
+}
+
+#twobox1
+{
+    min-height: 70vh;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+#component6
+{
+   width: 100vw;
+   border-bottom: 2px black solid;
+    background-color : #34a245
+}
+#component61
+{
+    width: 100vw;
+    flex-direction: column;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px black solid;
+
+    padding: 0;
+
+}
+#component61 h1
+{
+    text-align: center;
+    font-family: medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* font-family: 'Gt super text book', Georgia, sans-serif; */
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+#component61 p
+{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: navtext;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    text-align: center;
+}
+
+#component61 button
+{
+    color: white;
+    /* background-color: ; */
+    border: #fff 2px solid;
+    align-self: auto;
+    font-family: navtext;
+    height: 7vh;
+    border-radius: 50px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+}
+
+#component61 button:hover
+{
+    background-color: #fff;
+    color: black;
+}
+
+#component62
+{
+    width: 100%;
+    min-height: 23vw;
+    display: flex;
+    /* background-color: red; */
+}
+
+#component621
+{
+    /* width: 50%; */
+    border-right: 2px solid black;
+    height: 100%;
+    
+    /* background-color: red; */
+}
+
+#component621:nth-child(2)
+{
+    border-right: none;
+}
+
+#component621 h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    font-family: medium;
+    color: #000;
+    font-size: 3.2vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.12vw;
+    text-transform: none;
+}
+
+#component621 p
+{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: navtext;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+#a
+{
+    width: 100vw;
+    min-height: 60vh;
+    background-color: #b6e5a4;
+    display: flex;
+}
+#a1 , #a2
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+#a2
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#a1 p
+{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: navtext;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+#a1 h1
+{
+    font-family: medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;  
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+
+#b
+{
+    display: flex;
+    width: 100vw;
+    min-height: 200vh;
+    background-color: white;
+    
+}
+
+#b1
+{
+    width: 50%;
+    border-right: 2px solid black;
+    /* height: 100%; */
+    /* background-color: red; */
+}
+#b21
+{
+    width: 100%;
+    border-bottom: 2px solid black;
+    height: 33.33%;
+}
+#b2
+{
+    width: 50%;
+    /* background-color: green; */
+}
+#b11
+{
+    width: 100%;
+    height: 66.66%;
+    /* background-color: blue; */
+    border-bottom: 2px solid black;
+}
+#b12
+{
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b11 h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+#b21 h3
+{
+    color: #000;
+    font-size: 2.7vw;
+    line-height: 100%;
+    letter-spacing: -0.12vw;
+    text-transform: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-weight: 400;
+}
+#b21
+{
+    position: relative;
+    width: 100%;
+}
+#b21 p
+{
+    
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+
+}
+#b21 h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+#greenbutton
+{
+    font-size: "22px" ; 
+    border-radius : "50px";
+    position: absolute;
+    bottom: 5%;
+}
+#c
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) 
+
+{
+
+    #component621
+
+    {
+        border-right: none ;
+        border-bottom: 2px black solid;
+    }
+    #component621 h3
+    {
+        font-size: 28px;
+        line-height: 105%;
+        letter-spacing: -0.56px;
+    }
+    #twobox
+    {
+        flex-direction: column-reverse;
+
+    }
+    #first
+    {
+        border-right: none;
+        width: 100%;
+        border-top: 2px solid black;
+    }
+    #first p
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+    #sphere
+    {
+        height: 50vh;
+        width: 100vw;
+    }
+  
+    #twobox1
+    {
+        flex-direction: column;
+    }
+    #blackbox1
+    {
+        border-right: none;
+    }
+    #component62
+    {
+        flex-direction: column;
+    }
+    #a
+    {
+        flex-direction: column;
+    }
+    #b1
+    {
+        display: none;
+    }
+    #b21
+    {
+        height: 40vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    #b
+    {
+        margin-right: unset;
+        margin-left: initial;
+        min-height: 100vh;
+    }
+    #b21 h3
+    {
+        
+    font-size: 28px;
+    }
+}

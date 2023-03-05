@@ -1,0 +1,217 @@
+@font-face {
+    font-family: navtext;
+    src: url('/src/assest/fonts/sohne-400-normal.ttf');
+}
+@font-face {
+    font-family: medium;
+    src: url("/src/assest/fonts/gt-super-400-normal.ttf");
+}
+
+#M1
+{
+    background-color: rgb(68 121 255);
+    min-height: 100vh;
+    
+}
+#M11
+{
+    height: 70vh;
+    border-bottom: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#M11 h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: medium;
+    color: white;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+
+#M11 p
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: navtext;
+    font-size: 18px;
+    text-align: center;
+}
+
+#M11 button
+{
+    background-color: white;
+    align-self: auto;
+    /* font-family: 'Soehne web buch', sans-serif; */
+    position: relative;
+    height: auto;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    border-radius: 21px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    font-family: navtext;
+}
+
+#M11 button:hover
+{
+    background-color: rgb(68 121 255);
+    color: white;
+    border: 2px white solid;
+}
+
+#M12 
+{
+    min-height: 55vh;
+    display: flex;
+    /* background-color: red; */
+}
+#M121
+{
+    width: 50%;
+    /* background-color: green; */
+    height: 100%;
+}
+#M121:nth-child(1)
+{
+    border-right: 2px solid white;
+}
+
+#M121 h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    font-family: medium;
+    /* color: #000; */
+    font-size: 3.2vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.12vw;
+    text-transform: none;
+    color: #fff;
+    line-height: 105%;
+}
+
+#M121 p
+{
+    color: #fff;
+    font-weight: 400;
+    text-transform: none;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: navtext;
+    font-size: 18px;
+    line-height: 127%;
+}
+#M121:nth-child(2)
+{
+    margin-left: 20px;
+}
+#M2
+{
+    min-height: 65vh;
+    background-color: #bcdfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    border-bottom: 2px black solid;
+}
+#M2 h1
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: medium;
+    color: #000;
+    font-size: 7.3vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+#M2 button
+{ background-color: black;
+    align-self: auto;
+    /* font-family: 'Soehne web buch', sans-serif; */
+    position: relative;
+    height: auto;
+    padding-right: 32px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    border-radius: 21px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    font-family: navtext;
+    
+}
+#M2 img
+{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+@media only screen and (max-width: 600px) 
+{
+    #M11
+    {
+        height: 50vh;
+        align-items:start ;
+    }
+    #M11 p
+    {
+        text-align: start;
+
+    }
+    #M11 h1
+    {
+        font-size: 40px;
+    }
+    #M12
+    {
+        flex-direction: column;
+    }
+    #M121:nth-child(1)
+    {
+        border-bottom: 2px white solid;
+        border-right : none
+    }
+    #M121
+    {
+        width: 100%;
+    }
+    #M121:nth-child(2)
+    {
+        margin-left: 0px;
+    }
+    #M121 h2
+    {
+        font-size: 28px;
+    }
+    #M121 p
+    {
+        font-size: 18px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: medium;
+    src: url("../fonts/gt-super-400-normal.ttf");
+}
+@font-face {
+    font-family: navtext;
+    src: url('../fonts/sohne-400-normal.ttf');
+}
+
+#navbar
+{
+    /* position: fixed; */
+    border-bottom: 2px solid black;
+   font-family: navtext;
+    background-color: rgb(255 192 23);
+    color: black;
+}
+#navtext
+{
+    color: black;
+}
+
+
+#navbrand
+{
+    font-family: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+#navbrand h3{
+    font-weight: 900;
+}
+
+#getstarted
+{
+    /* color: black; */
+    border-radius: 20px;
+
+}
+
+#offcanvas
+{
+    border-radius: 20px;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    height: 100vh;
+}
+
+#loginAccount
+{
+    font-size: 16px;
+    font-family: navtext;
+
+    line-height: 24px;
+
+}
+#terms
+{
+    font-family: navtext;
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#buttonss
+{
+    width: 212px;
+    border-color: rgb(168, 168, 168);
+    font-family: navtext;
+    padding: 6px 12px 8px 16px;
+    line-height: 20px;
+}
+#joinmedium
+{
+    letter-spacing: -0.03em;
+    line-height: 32px;
+    font-size: 28px;
+    color: rgba(8, 8, 8, 1);
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-weight: 400;
+    font-family: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) 
+{
+    #collapsedisplayid
+    {
+        display: none;
+    }
+    .sss
+    {
+        display: none;
+    }
+    #offcanvas
+    {
+    height: 80vh;
+    width: 80%;
+    }
+}
